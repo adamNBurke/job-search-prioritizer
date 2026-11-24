@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "answered_on": "2026-11-17",
+  "target_titles": ["Robotics Engineer", "Field Technician"],
+  "target_level": "senior",
+  "years_experience": 8,
+  "skills": [
+    {"term": "warehouse robots", "aliases": [], "origin": "resume"},
+    {"term": "synthetic text", "aliases": [], "origin": "resume"},
+    {"term": "invented things", "aliases": [], "origin": "stated"}
+  ],
+  "pay_floor": {"amount": 90000, "currency": "USD", "interval": "year"},
+  "work_modes": ["remote", "hybrid", "onsite"],
+  "locations": [],
+  "regions": ["US"],
+  "needs_sponsorship": false,
+  "industries_wanted": ["manufacturing-hardware"],
+  "industries_ruled_out": [],
+  "company_sizes": ["51-200"],
+  "company_stages": ["growth"],
+  "deal_breaker_terms": [],
+  "companies_ruled_out": [],
+  "strict": [],
+  "top_three": ["title_fit", "skills", "pay"],
+  "dont_care": ["company_stage"],
+  "skipped": []
+}

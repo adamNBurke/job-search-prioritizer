@@ -1,0 +1,6 @@
+{
+  "decisions": [
+    {"id": "tf-operations", "decision": "approve", "label": "Operations analyst", "terms": ["operations analyst"], "rung": 2},
+    {"id": "tf-technical-writing", "decision": "reject", "label": "Technical writer", "terms": ["technical writer"], "rung": 1}
+  ]
+}

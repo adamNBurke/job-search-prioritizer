@@ -1,0 +1,39 @@
+[project]
+name = "job-search-prioritizer-dev"
+version = "0.1.0"
+requires-python = ">=3.11,<3.16"
+dependencies = []
+
+# Dev environment only. The runtime pins below must equal the PEP 723 block in
+# scripts/jobsearch.py, because tests import the code under plain pytest.
+[dependency-groups]
+dev = [
+    "pytest==9.2.0",
+    "ruff==0.17.4",
+    "requests==2.34.2",
+    "pypdf==6.21.4",
+    "python-docx==1.2.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tools"]
+testpaths = ["tests"]
+xfail_strict = true
+addopts = ["-m", "not live and not shells"]
+markers = [
+    "live: opt-in network canary against public boards",
+    "shells: runs skill lines in real bash and PowerShell",
+]
+
+[tool.ruff]
+target-version = "py311"
+extend-exclude = ["tests/fixtures"]
+
+[tool.ruff.lint]
+# PLW1514 (unspecified-encoding) is a preview rule in ruff 0.17.4, so both flags are required.
+preview = true
+explicit-preview-rules = true
+select = ["E4", "E7", "E9", "F", "PLW1514"]

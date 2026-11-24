@@ -1,0 +1,16 @@
+{
+  "name": "job-search-prioritizer",
+  "owner": {
+    "name": "Adam N. Burke"
+  },
+  "metadata": {
+    "description": "Rank open jobs against your own criteria and see which to apply to first. Works alongside career-ops."
+  },
+  "plugins": [
+    {
+      "name": "job-search-prioritizer",
+      "source": "./",
+      "description": "Rank open jobs against your own criteria and see which to apply to first. Works alongside career-ops."
+    }
+  ]
+}

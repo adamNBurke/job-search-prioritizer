@@ -1,0 +1,63 @@
+{
+  "families": [
+    {
+      "id": "tf-operations-leadership",
+      "label": "Operations leadership",
+      "titles": [
+        "operations manager",
+        "business operations manager"
+      ],
+      "terms": [
+        "operations manager",
+        "business operations manager"
+      ]
+    },
+    {
+      "id": "tf-program-delivery",
+      "label": "Program delivery",
+      "titles": [
+        "program manager"
+      ],
+      "terms": [
+        "program manager"
+      ]
+    },
+    {
+      "id": "tf-data-analytics",
+      "label": "Data and analytics",
+      "titles": [
+        "analytics engineer",
+        "data analyst",
+        "healthcare data analyst"
+      ],
+      "terms": [
+        "analytics engineer",
+        "data analyst"
+      ]
+    },
+    {
+      "id": "tf-design",
+      "label": "Product and UX design",
+      "titles": [
+        "product designer",
+        "ux designer"
+      ],
+      "terms": [
+        "product designer",
+        "ux designer"
+      ]
+    },
+    {
+      "id": "tf-people-and-writing",
+      "label": "Recruiting and writing",
+      "titles": [
+        "recruiter",
+        "technical writer"
+      ],
+      "terms": [
+        "recruiter",
+        "technical writer"
+      ]
+    }
+  ]
+}

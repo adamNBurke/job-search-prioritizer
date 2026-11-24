@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "levels": {
+    "entry": ["intern", "junior", "jr", "associate", "entry level", "trainee", "graduate"],
+    "senior": ["senior", "sr"],
+    "lead": ["lead", "staff", "principal"],
+    "manager": ["manager", "head of"],
+    "director": ["director"],
+    "executive": ["vp", "svp", "evp", "vice president", "chief", "ceo", "cto", "cfo", "coo", "cmo", "cio", "cro"]
+  },
+  "not_level": [
+    "product manager", "program manager", "project manager", "technical program manager",
+    "account manager", "product marketing manager", "customer success manager",
+    "community manager", "content manager", "brand manager", "territory manager",
+    "relationship manager", "social media manager",
+    "staff accountant", "staff nurse", "staff writer", "staff attorney", "staff auditor",
+    "staff pharmacist", "staff physician", "lead generation", "lead gen"
+  ]
+}

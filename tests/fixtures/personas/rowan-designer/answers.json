@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "answered_on": "2026-11-17",
+  "target_titles": ["Product Designer", "UX Designer"],
+  "target_level": "mid",
+  "years_experience": 7,
+  "skills": [
+    {"term": "Figma", "aliases": [], "origin": "resume"},
+    {"term": "user research", "aliases": ["usability testing"], "origin": "resume"},
+    {"term": "design systems", "aliases": ["component library"], "origin": "resume"},
+    {"term": "motion design", "aliases": [], "origin": "stated"}
+  ],
+  "pay_floor": {"amount": 62000, "currency": "EUR", "interval": "year"},
+  "work_modes": ["onsite", "hybrid"],
+  "locations": ["Berlin", "Amsterdam"],
+  "regions": ["DE", "EU", "NL"],
+  "needs_sponsorship": null,
+  "industries_wanted": ["education", "media-entertainment"],
+  "industries_ruled_out": [],
+  "company_sizes": ["51-200", "201-1000"],
+  "company_stages": ["growth"],
+  "deal_breaker_terms": ["unpaid trial"],
+  "companies_ruled_out": ["Hollowbrook Media Group"],
+  "strict": ["region"],
+  "top_three": ["title_fit", "industry", "location"],
+  "dont_care": [],
+  "skipped": ["needs_sponsorship"]
+}

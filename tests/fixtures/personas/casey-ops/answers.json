@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "answered_on": "2026-11-17",
+  "target_titles": ["Operations Manager", "Business Operations Manager", "Program Manager"],
+  "target_level": "manager",
+  "years_experience": 9,
+  "skills": [
+    {"term": "process improvement", "aliases": ["continuous improvement"], "origin": "resume"},
+    {"term": "vendor management", "aliases": ["supplier management"], "origin": "resume", "priority": true},
+    {"term": "budgeting", "aliases": ["budget management"], "origin": "resume", "priority": true},
+    {"term": "Excel", "aliases": ["spreadsheets"], "origin": "resume"},
+    {"term": "Six Sigma", "aliases": [], "origin": "stated"}
+  ],
+  "pay_floor": {"amount": 95000, "currency": "USD", "interval": "year"},
+  "work_modes": ["remote", "hybrid"],
+  "locations": [],
+  "regions": ["US"],
+  "needs_sponsorship": false,
+  "industries_wanted": [],
+  "industries_ruled_out": [],
+  "company_sizes": [],
+  "company_stages": [],
+  "deal_breaker_terms": [],
+  "companies_ruled_out": [],
+  "strict": [],
+  "top_three": ["title_fit", "pay", "location"],
+  "dont_care": ["level"],
+  "skipped": ["first_choice_title"]
+}

@@ -1,0 +1,99 @@
+# Purpose: run every check on macOS, Windows and Linux for each push and pull request,
+# prove the clean-machine path with no pinned Python (stranger), validate the plugin manifest,
+# and scan the public export with the pattern rules of the leak gate.
+# Guardrails: read-only token, no repository secret anywhere (the personal denylist never reaches
+# CI), every action pinned by commit SHA, and no step that hides a failing exit code. The Windows
+# plus 3.11 leg is the encoding negative control: no UTF-8 mode switch is set for any job.
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: test (${{ matrix.os }}, py${{ matrix.python }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.15"]
+        exclude:
+          # A macOS minute bills about ten times a Linux minute on a private repository.
+          - os: macos-latest
+            python: "3.11"
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.7"
+          python-version: ${{ matrix.python }}
+      - name: Check the script lock
+        run: uv lock --check --script scripts/jobsearch.py
+      - name: Check the dev lock
+        run: uv lock --check
+      - name: Lint
+        run: uv run --frozen ruff check .
+      - name: Test
+        run: uv run --frozen pytest -q
+
+  stranger:
+    name: stranger (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      # Nothing pinned here on purpose: a clean machine gets the newest CPython and uv.
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          enable-cache: false
+      - name: Run the skill lines in real shells
+        run: uv run --frozen pytest -q -m shells
+
+  validate:
+    name: validate plugin
+    runs-on: ubuntu-latest
+    env:
+      DISABLE_AUTOUPDATER: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install the pinned Claude Code CLI
+        run: curl -fsSL https://claude.ai/install.sh | bash -s 2.1.322
+      - name: Add the CLI to PATH
+        run: echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+      - name: Show the CLI version
+        run: claude --version
+      - name: Validate the plugin and marketplace manifests
+        run: claude plugin validate . --strict
+
+  leak-gate:
+    name: leak gate (pattern rules)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.7"
+      - name: Export the public tree
+        run: uv run --script tools/export_public.py --out "${{ runner.temp }}/export"
+      - name: Scan the export
+        run: uv run --script tools/leak_check.py --root "${{ runner.temp }}/export"

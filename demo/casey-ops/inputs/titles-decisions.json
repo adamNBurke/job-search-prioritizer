@@ -1,0 +1,48 @@
+{
+  "decisions": [
+    {
+      "id": "tf-operations-leadership",
+      "decision": "approve",
+      "label": "Operations leadership",
+      "terms": [
+        "operations manager",
+        "business operations manager"
+      ]
+    },
+    {
+      "id": "tf-program-delivery",
+      "decision": "approve",
+      "label": "Program delivery",
+      "terms": [
+        "program manager"
+      ]
+    },
+    {
+      "id": "tf-data-analytics",
+      "decision": "reject",
+      "label": "Data and analytics",
+      "terms": [
+        "analytics engineer",
+        "data analyst"
+      ]
+    },
+    {
+      "id": "tf-design",
+      "decision": "reject",
+      "label": "Product and UX design",
+      "terms": [
+        "product designer",
+        "ux designer"
+      ]
+    },
+    {
+      "id": "tf-people-and-writing",
+      "decision": "reject",
+      "label": "Recruiting and writing",
+      "terms": [
+        "recruiter",
+        "technical writer"
+      ]
+    }
+  ]
+}

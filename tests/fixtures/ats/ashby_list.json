@@ -1,0 +1,295 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "address": {
+        "postalAddress": {
+          "addressCountry": "European Union",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": ""
+        }
+      },
+      "applyUrl": "https://jobs.example.com/acme-robotics/d26110db-ce5f-53c9-b79c-4eb820326d71/application",
+      "compensation": {
+        "compensationTierSummary": "€100K – €150K • Offers Equity",
+        "compensationTiers": [
+          {
+            "additionalInformation": null,
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "EUR",
+                "id": "198d8c7b-7c9b-59a1-9c10-516c49c521f5",
+                "interval": "1 YEAR",
+                "maxValue": 150000,
+                "minValue": 100000,
+                "summary": "€100K – €150K"
+              },
+              {
+                "compensationType": "EquityPercentage",
+                "currencyCode": null,
+                "id": "32294d64-c32e-5fa7-aafe-7f14ddd7bb00",
+                "interval": "NONE",
+                "maxValue": null,
+                "minValue": null,
+                "summary": "Offers Equity"
+              },
+              {
+                "compensationType": "Bonus",
+                "currencyCode": "EUR",
+                "id": "3f357e23-db99-5351-840c-daf05cace676",
+                "interval": "1 YEAR",
+                "maxValue": null,
+                "minValue": null,
+                "summary": "Offers Bonus"
+              }
+            ],
+            "id": "bba7825f-b194-525a-8316-6761b98705e6",
+            "tierSummary": "€100K – €150K • Offers Equity • Offers Bonus",
+            "title": "EU"
+          }
+        ],
+        "scrapeableCompensationSalarySummary": "€100K - €150K",
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "currencyCode": "EUR",
+            "interval": "1 YEAR",
+            "maxValue": 150000,
+            "minValue": 100000
+          },
+          {
+            "compensationType": "EquityPercentage",
+            "interval": "1 YEAR",
+            "maxValue": null,
+            "minValue": null
+          },
+          {
+            "compensationType": "Bonus",
+            "currencyCode": "EUR",
+            "interval": "1 YEAR",
+            "maxValue": null,
+            "minValue": null
+          }
+        ]
+      },
+      "department": "Engineering",
+      "descriptionHtml": "<p style=\"min-height:1.5em\">Acme Robotics builds invented warehouse robots for this test fixture.</p><p style=\"min-height:1.5em\">The Senior Robotics Engineer role is synthetic text.</p><ul style=\"padding-inline-start:1.5em\"><li style=\"min-height:1.5em\"><p style=\"min-height:1.5em\">Invented task</p></li></ul>",
+      "descriptionPlain": "Acme Robotics builds invented warehouse robots for this test fixture.\n\nThe Senior Robotics Engineer role is synthetic text.\n\n- Invented task",
+      "employmentType": "FullTime",
+      "id": "d26110db-ce5f-53c9-b79c-4eb820326d71",
+      "isListed": true,
+      "isRemote": true,
+      "jobUrl": "https://jobs.example.com/acme-robotics/d26110db-ce5f-53c9-b79c-4eb820326d71",
+      "location": "Remote - Europe",
+      "publishedAt": "2025-03-04T14:29:08.532+00:00",
+      "secondaryLocations": [
+        {
+          "location": "Spain",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "Spain",
+              "addressLocality": "Spain",
+              "addressRegion": "Spain"
+            }
+          }
+        }
+      ],
+      "shouldDisplayCompensationOnJobPostings": true,
+      "team": "Platform",
+      "title": "Senior Robotics Engineer",
+      "workplaceType": "Remote"
+    },
+    {
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United States"
+        }
+      },
+      "applyUrl": "https://jobs.example.com/acme-robotics/1a570ca4-1ad9-5560-84f5-4a93e8a06d54/application",
+      "compensation": {
+        "compensationTierSummary": "$130K – $210K • Offers Equity • Multiple Ranges",
+        "compensationTiers": [
+          {
+            "additionalInformation": null,
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "USD",
+                "id": "ec17cdc6-baab-5038-b5f0-3de3bfce80ce",
+                "interval": "1 YEAR",
+                "maxValue": 210000,
+                "minValue": 150000,
+                "summary": "$150K – $210K"
+              },
+              {
+                "compensationType": "EquityPercentage",
+                "currencyCode": null,
+                "id": "32294d64-c32e-5fa7-aafe-7f14ddd7bb00",
+                "interval": "NONE",
+                "maxValue": null,
+                "minValue": null,
+                "summary": "Offers Equity"
+              }
+            ],
+            "id": "e98d8325-124a-577d-be31-ea778938d09a",
+            "tierSummary": "$150K – $210K • Offers Equity",
+            "title": "US: Tier 1"
+          },
+          {
+            "additionalInformation": null,
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "USD",
+                "id": "ac1d5ac6-b848-59d1-859e-f71a4e5b6bd1",
+                "interval": "1 YEAR",
+                "maxValue": 180000,
+                "minValue": 130000,
+                "summary": "$130K – $180K"
+              },
+              {
+                "compensationType": "EquityPercentage",
+                "currencyCode": null,
+                "id": "32294d64-c32e-5fa7-aafe-7f14ddd7bb00",
+                "interval": "NONE",
+                "maxValue": null,
+                "minValue": null,
+                "summary": "Offers Equity"
+              }
+            ],
+            "id": "0facd546-04ce-5281-bf83-0f0033b4e6a9",
+            "tierSummary": "$130K – $180K • Offers Equity",
+            "title": "US: Tier 2"
+          }
+        ],
+        "scrapeableCompensationSalarySummary": "$130K - $210K",
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "currencyCode": "USD",
+            "interval": "1 YEAR",
+            "maxValue": 210000,
+            "minValue": 130000
+          },
+          {
+            "compensationType": "EquityPercentage",
+            "interval": "1 YEAR",
+            "maxValue": null,
+            "minValue": null
+          }
+        ]
+      },
+      "department": "Engineering",
+      "descriptionHtml": "<p style=\"min-height:1.5em\">Acme Robotics builds invented warehouse robots for this test fixture.</p><p style=\"min-height:1.5em\">The Account Executive role is synthetic text. A literal 1 &lt; 2 appears here.</p><ul style=\"padding-inline-start:1.5em\"><li style=\"min-height:1.5em\"><p style=\"min-height:1.5em\">Invented task</p></li></ul>",
+      "descriptionPlain": "Acme Robotics builds invented warehouse robots for this test fixture.\n\nThe Account Executive role is synthetic text.\n\n- Invented task",
+      "employmentType": "FullTime",
+      "id": "1a570ca4-1ad9-5560-84f5-4a93e8a06d54",
+      "isListed": true,
+      "isRemote": true,
+      "jobUrl": "https://jobs.example.com/acme-robotics/1a570ca4-1ad9-5560-84f5-4a93e8a06d54",
+      "location": "Remote - North America",
+      "publishedAt": "2026-10-15T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "shouldDisplayCompensationOnJobPostings": true,
+      "team": "Platform",
+      "title": "Account Executive",
+      "workplaceType": "Remote"
+    },
+    {
+      "address": {
+        "postalAddress": {
+          "addressCountry": "United Kingdom",
+          "addressLocality": "London",
+          "addressRegion": "England"
+        }
+      },
+      "applyUrl": "https://jobs.example.com/acme-robotics/a0d569f2-0423-5489-9e84-b77182060955/application",
+      "compensation": {
+        "compensationTierSummary": "£90K – £130K",
+        "compensationTiers": [
+          {
+            "additionalInformation": null,
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "GBP",
+                "id": "3455e19a-4899-5c87-9a47-57e999e4ef5c",
+                "interval": "1 YEAR",
+                "maxValue": 130000,
+                "minValue": 90000,
+                "summary": "£90K – £130K"
+              },
+              {
+                "compensationType": "Bonus",
+                "currencyCode": "GBP",
+                "id": "06fc827d-eb44-5bbb-8dd7-02826a2119a4",
+                "interval": "1 YEAR",
+                "maxValue": null,
+                "minValue": null,
+                "summary": "Offers Bonus"
+              }
+            ],
+            "id": "b37f50bb-9820-5ca6-96be-57dcc48a4eb5",
+            "tierSummary": "£90K – £130K • Offers Bonus",
+            "title": "UK"
+          }
+        ],
+        "scrapeableCompensationSalarySummary": "£90K - £130K",
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "currencyCode": "GBP",
+            "interval": "1 YEAR",
+            "maxValue": 130000,
+            "minValue": 90000
+          },
+          {
+            "compensationType": "Bonus",
+            "currencyCode": "GBP",
+            "interval": "1 YEAR",
+            "maxValue": null,
+            "minValue": null
+          }
+        ]
+      },
+      "department": "Engineering",
+      "descriptionHtml": "<p style=\"min-height:1.5em\">Acme Robotics builds invented warehouse robots for this test fixture.</p><p style=\"min-height:1.5em\">The Data Engineer role is synthetic text.</p><ul style=\"padding-inline-start:1.5em\"><li style=\"min-height:1.5em\"><p style=\"min-height:1.5em\">Invented task</p></li></ul>",
+      "descriptionPlain": "Acme Robotics builds invented warehouse robots for this test fixture.\n\nThe Data Engineer role is synthetic text.\n\n- Invented task",
+      "employmentType": "FullTime",
+      "id": "a0d569f2-0423-5489-9e84-b77182060955",
+      "isListed": true,
+      "isRemote": true,
+      "jobUrl": "https://jobs.example.com/acme-robotics/a0d569f2-0423-5489-9e84-b77182060955",
+      "location": "Remote - UK",
+      "publishedAt": "2026-11-11T12:30:45.123+00:00",
+      "secondaryLocations": [
+        {
+          "location": "Ireland",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "Ireland",
+              "addressLocality": "Ireland",
+              "addressRegion": "Ireland"
+            }
+          }
+        },
+        {
+          "location": "France",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "France",
+              "addressLocality": "France",
+              "addressRegion": "France"
+            }
+          }
+        }
+      ],
+      "shouldDisplayCompensationOnJobPostings": true,
+      "team": "Platform",
+      "title": "Data Engineer",
+      "workplaceType": "Remote"
+    }
+  ]
+}

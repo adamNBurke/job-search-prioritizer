@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "answered_on": "2026-11-17",
+  "target_titles": ["Data Analyst", "Healthcare Data Analyst", "Analytics Engineer"],
+  "target_level": "senior",
+  "years_experience": 6,
+  "skills": [
+    {"term": "SQL", "aliases": [], "origin": "resume"},
+    {"term": "Tableau", "aliases": [], "origin": "resume"},
+    {"term": "Python", "aliases": [], "origin": "resume"},
+    {"term": "dbt", "aliases": [], "origin": "stated"}
+  ],
+  "pay_floor": {"amount": 48, "currency": "USD", "interval": "hour"},
+  "work_modes": ["hybrid"],
+  "locations": ["Raleigh, NC"],
+  "regions": ["US"],
+  "needs_sponsorship": true,
+  "industries_wanted": ["healthcare", "biotech"],
+  "industries_ruled_out": ["fintech"],
+  "company_sizes": ["201-1000", "1001-5000"],
+  "company_stages": ["growth", "public"],
+  "deal_breaker_terms": ["on-call rotation"],
+  "companies_ruled_out": [],
+  "strict": ["sponsorship"],
+  "top_three": ["skills", "industry", "pay"],
+  "dont_care": ["company_stage"],
+  "skipped": []
+}

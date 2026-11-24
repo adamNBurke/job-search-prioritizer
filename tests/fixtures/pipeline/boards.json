@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "ats": "lever",
+      "company": "Harbor Example",
+      "identity": "company_name",
+      "industry": "education",
+      "last_verified": "2026-11-17",
+      "postings_at_verify": 7,
+      "size": "201-1000",
+      "slug": "harbor-example",
+      "stage": "growth"
+    },
+    {
+      "ats": "ashby",
+      "company": "Meridian Example",
+      "identity": "company_name",
+      "industry": "media-entertainment",
+      "last_verified": "2026-11-17",
+      "postings_at_verify": 6,
+      "size": "51-200",
+      "slug": "meridian-example",
+      "stage": "growth"
+    },
+    {
+      "ats": "greenhouse",
+      "company": "Northwind Example",
+      "identity": "company_name",
+      "industry": "healthcare",
+      "last_verified": "2026-11-17",
+      "postings_at_verify": 10,
+      "size": "201-1000",
+      "slug": "northwind-example",
+      "stage": "growth"
+    }
+  ],
+  "generated_on": "2026-11-17",
+  "schema_version": 1
+}

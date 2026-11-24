@@ -1,0 +1,21 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing. This page is public, so leave out any employer name you do not want public, your email address and your resume.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A role you found, a letter you sent, an interview you got. Whatever you are glad about.
+    validations:
+      required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Which tier was the role?
+      options:
+        - A
+        - B
+        - C
+        - Not sure

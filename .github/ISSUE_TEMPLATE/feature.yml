@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest something job-search-prioritizer should do.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This page is public. Never paste your resume, your profile/answers.json, a ranked list with your notes, your email address, your phone number, your home folder path, or any file from your data folder. Describe what you want in your own words instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like the tool to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today instead?
+      description: Any workaround, or another tool you use for this.

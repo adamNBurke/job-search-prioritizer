@@ -1,0 +1,12 @@
+{
+  "name": "job-search-prioritizer",
+  "version": "1.0.0",
+  "description": "Rank open jobs against your own criteria and see which to apply to first. Works alongside career-ops.",
+  "author": {
+    "name": "Adam N. Burke",
+    "url": "https://github.com/adamNBurke"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/adamNBurke/job-search-prioritizer",
+  "homepage": "https://github.com/adamNBurke/job-search-prioritizer"
+}

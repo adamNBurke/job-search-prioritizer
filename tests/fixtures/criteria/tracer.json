@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "criteria_version": "1.0",
+  "created_from": "intake",
+  "hard_filters": [],
+  "title": {
+    "families": [
+      {
+        "id": "tf-robotics",
+        "label": "Robotics engineer",
+        "rung": 3,
+        "terms": [
+          "robotics engineer"
+        ],
+        "regex": [],
+        "origin": "stated"
+      },
+      {
+        "id": "tf-field",
+        "label": "Field technician",
+        "rung": 2,
+        "terms": [
+          "field technician"
+        ],
+        "regex": [],
+        "origin": "stated"
+      },
+      {
+        "id": "tf-ops",
+        "label": "Operations analyst",
+        "rung": 1,
+        "terms": [
+          "operations analyst"
+        ],
+        "regex": [],
+        "origin": "default"
+      },
+      {
+        "id": "tf-software",
+        "label": "Software engineer",
+        "rung": 3,
+        "terms": [
+          "software engineer",
+          "program manager"
+        ],
+        "regex": [],
+        "origin": "default"
+      }
+    ],
+    "exclude": [
+      {
+        "terms": [
+          "recruiter"
+        ],
+        "origin": "default"
+      }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "title_fit",
+      "label": "Title and scope match",
+      "weight": 70,
+      "evaluator": "title_ladder"
+    },
+    {
+      "id": "freshness",
+      "label": "Posting age",
+      "weight": 30,
+      "evaluator": "age_bands",
+      "params": {
+        "bands": [
+          [
+            14,
+            3
+          ],
+          [
+            45,
+            2
+          ],
+          [
+            90,
+            1
+          ]
+        ],
+        "else": 0
+      }
+    }
+  ],
+  "bonuses": [],
+  "tiers": [
+    {
+      "id": "A",
+      "min_score": 70,
+      "meaning": "Worth full effort"
+    },
+    {
+      "id": "B",
+      "min_score": 50,
+      "meaning": "Worth a tailored resume"
+    },
+    {
+      "id": "C",
+      "min_score": 0,
+      "meaning": "Keep in view"
+    }
+  ],
+  "banding": {
+    "provisional_below_coverage": 50
+  },
+  "one_per_company": {
+    "enabled": true,
+    "keep": "best"
+  }
+}

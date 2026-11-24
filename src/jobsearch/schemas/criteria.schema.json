@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adamNBurke/job-search-prioritizer/schemas/criteria.schema.json",
+  "title": "criteria.json, schema_version 1",
+  "description": "The user's scoring configuration. Closed evaluator registry: config selects and parameterizes, it never carries code. The reserved key is held for 1.1 and ignored in 1.0.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "criteria_version",
+    "created_from",
+    "hard_filters",
+    "title",
+    "criteria",
+    "bonuses",
+    "tiers",
+    "banding",
+    "one_per_company"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "criteria_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "created_from": {
+      "type": "string",
+      "description": "intake, retune, or proposal:p-NNNN",
+      "pattern": "^(intake|retune|proposal:p-[0-9]{4,})$"
+    },
+    "hard_filters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "type": {
+            "enum": ["enum_allow", "min_number", "region_allow", "deny_terms", "deny_list"]
+          },
+          "field": { "type": "string" },
+          "allow": { "type": "array", "items": { "type": "string" } },
+          "value": { "type": "number" },
+          "currency": { "type": "string" },
+          "terms": { "type": "array", "items": { "type": "string" } },
+          "names": { "type": "array", "items": { "type": "string" } },
+          "unknown": { "enum": ["gap", "pass", "reject"] },
+          "label": { "type": "string" },
+          "reject_reason": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "title": {
+      "type": "object",
+      "required": ["families", "exclude"],
+      "additionalProperties": false,
+      "properties": {
+        "families": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "rung", "terms", "origin"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "label": { "type": "string" },
+              "rung": { "type": "integer", "minimum": 0 },
+              "terms": { "type": "array", "items": { "type": "string" } },
+              "regex": { "type": "array", "items": { "type": "string" } },
+              "exclude": { "type": "array", "items": { "type": "string" } },
+              "origin": { "enum": ["discovered", "stated", "default"] },
+              "evidence": { "type": "object" },
+              "approved_at": { "type": "string" }
+            }
+          }
+        },
+        "exclude": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["terms"],
+            "additionalProperties": false,
+            "properties": {
+              "terms": { "type": "array", "items": { "type": "string" } },
+              "origin": { "enum": ["discovered", "stated", "default"] }
+            }
+          }
+        }
+      }
+    },
+    "criteria": {
+      "type": "array",
+      "description": "Non-bonus criteria. Integer weights must sum to 100.",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "weight", "evaluator"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "label": { "type": "string" },
+          "weight": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "evaluator": {
+            "enum": [
+              "title_ladder",
+              "keyword_coverage",
+              "age_bands",
+              "banded_number",
+              "enum_scale",
+              "term_scale",
+              "judged_scale",
+              "level_match",
+              "location_match"
+            ]
+          },
+          "field": { "type": "string" },
+          "params": { "type": "object" },
+          "reasons": { "type": "object", "additionalProperties": { "type": "string" } }
+        }
+      }
+    },
+    "bonuses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "evaluator", "max_points"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "evaluator": {
+            "enum": [
+              "title_ladder",
+              "keyword_coverage",
+              "age_bands",
+              "banded_number",
+              "enum_scale",
+              "term_scale",
+              "judged_scale",
+              "level_match",
+              "location_match"
+            ]
+          },
+          "field": { "type": "string" },
+          "max_points": { "type": "integer", "minimum": 0 },
+          "params": { "type": "object" }
+        }
+      }
+    },
+    "tiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "min_score"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "enum": ["A", "B", "C"] },
+          "min_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "meaning": { "type": "string" }
+        }
+      }
+    },
+    "banding": {
+      "type": "object",
+      "required": ["provisional_below_coverage"],
+      "additionalProperties": false,
+      "properties": {
+        "provisional_below_coverage": { "type": "integer", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "one_per_company": {
+      "type": "object",
+      "required": ["enabled"],
+      "additionalProperties": false,
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "keep": { "enum": ["best"] }
+      }
+    },
+    "reserved": {
+      "type": "object",
+      "description": "Held for 1.1, ignored in 1.0.",
+      "properties": {
+        "tracks": { "type": ["object", "null"] },
+        "overrides": { "type": ["object", "null"] }
+      }
+    }
+  }
+}

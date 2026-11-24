@@ -1,0 +1,4 @@
+{
+  "https://boards-api.greenhouse.io/v1/boards/acme-robotics/jobs?content=true": "ats/greenhouse_list.json",
+  "https://careers.example.com/jobs/field-technician": "shells/page.html"
+}

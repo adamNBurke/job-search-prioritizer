@@ -1,0 +1,205 @@
+[
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000001/apply",
+    "categories": {
+      "allLocations": [
+        "Berlin, Germany"
+      ],
+      "commitment": "Full-time",
+      "department": "Design",
+      "location": "Berlin, Germany",
+      "team": "Design"
+    },
+    "country": "US",
+    "createdAt": 1794301200000,
+    "description": "<div>Invented design work using Figma, user research and design systems.</div>",
+    "descriptionPlain": "Invented design work using Figma, user research and design systems.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000001",
+    "id": "a1000001-0000-4000-8000-000000000001",
+    "lists": [],
+    "salaryRange": {
+      "currency": "EUR",
+      "interval": "per-year-salary",
+      "max": 88000,
+      "min": 72000
+    },
+    "text": "Product Designer",
+    "workplaceType": "hybrid"
+  },
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000002/apply",
+    "categories": {
+      "allLocations": [
+        "Amsterdam, Netherlands"
+      ],
+      "commitment": "Full-time",
+      "department": "Design",
+      "location": "Amsterdam, Netherlands",
+      "team": "Design"
+    },
+    "country": "US",
+    "createdAt": 1794387600000,
+    "description": "<div>Invented learning products. Figma and usability testing every week.</div>",
+    "descriptionPlain": "Invented learning products. Figma and usability testing every week.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000002",
+    "id": "a1000001-0000-4000-8000-000000000002",
+    "lists": [],
+    "salaryRange": {
+      "currency": "EUR",
+      "interval": "per-year-salary",
+      "max": 78000,
+      "min": 66000
+    },
+    "text": "UX Designer",
+    "workplaceType": "onsite"
+  },
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000003/apply",
+    "categories": {
+      "allLocations": [
+        "Munich, Germany"
+      ],
+      "commitment": "Full-time",
+      "department": "Design",
+      "location": "Munich, Germany",
+      "team": "Design"
+    },
+    "country": "US",
+    "createdAt": 1794214800000,
+    "description": "<div>Invented work in Figma.</div>",
+    "descriptionPlain": "Invented work in Figma.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000003",
+    "id": "a1000001-0000-4000-8000-000000000003",
+    "lists": [],
+    "salaryRange": {
+      "currency": "EUR",
+      "interval": "per-year-salary",
+      "max": 52000,
+      "min": 42000
+    },
+    "text": "Product Designer",
+    "workplaceType": "hybrid"
+  },
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000004/apply",
+    "categories": {
+      "allLocations": [
+        "Austin, TX"
+      ],
+      "commitment": "Full-time",
+      "department": "Design",
+      "location": "Austin, TX",
+      "team": "Design"
+    },
+    "country": "US",
+    "createdAt": 1794214800000,
+    "description": "<div>Invented work in Figma and design systems.</div>",
+    "descriptionPlain": "Invented work in Figma and design systems.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000004",
+    "id": "a1000001-0000-4000-8000-000000000004",
+    "lists": [],
+    "salaryRange": {
+      "currency": "USD",
+      "interval": "per-year-salary",
+      "max": 120000,
+      "min": 100000
+    },
+    "text": "Product Designer",
+    "workplaceType": "hybrid"
+  },
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000005/apply",
+    "categories": {
+      "allLocations": [
+        "Austin, TX"
+      ],
+      "commitment": "Full-time",
+      "department": "Operations",
+      "location": "Austin, TX",
+      "team": "Operations"
+    },
+    "country": "US",
+    "createdAt": 1794214800000,
+    "description": "<div>Invented operations role on site. Process improvement and vendor management.</div>",
+    "descriptionPlain": "Invented operations role on site. Process improvement and vendor management.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000005",
+    "id": "a1000001-0000-4000-8000-000000000005",
+    "lists": [],
+    "salaryRange": {
+      "currency": "USD",
+      "interval": "per-year-salary",
+      "max": 125000,
+      "min": 105000
+    },
+    "text": "Operations Manager",
+    "workplaceType": "onsite"
+  },
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000006/apply",
+    "categories": {
+      "allLocations": [
+        "Remote - US"
+      ],
+      "commitment": "Full-time",
+      "department": "Operations",
+      "location": "Remote - US",
+      "team": "Operations"
+    },
+    "country": "US",
+    "createdAt": 1794474000000,
+    "description": "<div>Invented business operations. Process improvement, vendor management and budgeting in Excel.</div>",
+    "descriptionPlain": "Invented business operations. Process improvement, vendor management and budgeting in Excel.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000006",
+    "id": "a1000001-0000-4000-8000-000000000006",
+    "lists": [],
+    "salaryRange": {
+      "currency": "USD",
+      "interval": "per-year-salary",
+      "max": 130000,
+      "min": 100000
+    },
+    "text": "Business Operations Manager",
+    "workplaceType": "remote"
+  },
+  {
+    "additional": "<div>Invented closing text.</div>",
+    "additionalPlain": "Invented closing text.",
+    "applyUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000007/apply",
+    "categories": {
+      "allLocations": [
+        "Berlin, Germany"
+      ],
+      "commitment": "Full-time",
+      "department": "Design",
+      "location": "Berlin, Germany",
+      "team": "Design"
+    },
+    "country": "US",
+    "createdAt": 1794301200000,
+    "description": "<div>Invented work in Figma.</div>",
+    "descriptionPlain": "Invented work in Figma.",
+    "hostedUrl": "https://jobs.example.com/harbor-example/a1000001-0000-4000-8000-000000000007",
+    "id": "a1000001-0000-4000-8000-000000000007",
+    "lists": [],
+    "salaryRange": {
+      "currency": "EUR",
+      "interval": "per-year-salary",
+      "max": 55000,
+      "min": 45000
+    },
+    "text": "UX Designer",
+    "workplaceType": "hybrid"
+  }
+]

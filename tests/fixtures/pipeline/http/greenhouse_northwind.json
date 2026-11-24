@@ -1,0 +1,207 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100001",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our team runs invented operations for this test fixture.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;You will lead process improvement and vendor management, own budgeting in Excel, and bring Six Sigma habits.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$112,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$138,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-10T09:00:00-05:00",
+      "id": 4100001,
+      "location": {
+        "name": "Remote - US"
+      },
+      "title": "Operations Manager",
+      "updated_at": "2026-11-10T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100002",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our team runs invented operations for this test fixture.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Same role, second posting id. You will lead process improvement and vendor management, own budgeting in Excel, and bring Six Sigma habits.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$112,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$138,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-11T09:00:00-05:00",
+      "id": 4100002,
+      "location": {
+        "name": "Remote - US"
+      },
+      "title": "Operations Manager",
+      "updated_at": "2026-11-11T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100003",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;A fictional program office.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Process improvement and budgeting across invented programs.&lt;/li&gt;&lt;/ul&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-09T09:00:00-05:00",
+      "id": 4100003,
+      "location": {
+        "name": "Boston, MA"
+      },
+      "title": "Program Manager",
+      "updated_at": "2026-11-09T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100004",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Writes invented manuals.&lt;/p&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-05T09:00:00-05:00",
+      "id": 4100004,
+      "location": {
+        "name": "Remote - US"
+      },
+      "title": "Technical Writer",
+      "updated_at": "2026-11-05T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100005",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our fictional analytics group supports invented clinics.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;SQL, Tableau and Python for invented dashboards.&lt;/li&gt;&lt;li&gt;dbt models for the warehouse.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$118,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$146,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-12T09:00:00-05:00",
+      "id": 4100005,
+      "location": {
+        "name": "Raleigh, NC"
+      },
+      "title": "Healthcare Data Analyst",
+      "updated_at": "2026-11-12T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100006",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our fictional analytics group supports invented clinics.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;SQL and Tableau.&lt;/li&gt;&lt;li&gt;We cannot sponsor visas for this role.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$110,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$130,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-12T09:00:00-05:00",
+      "id": 4100006,
+      "location": {
+        "name": "Raleigh, NC"
+      },
+      "title": "Data Analyst",
+      "updated_at": "2026-11-12T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100007",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our fictional analytics group supports invented clinics.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;SQL, Python and dbt.&lt;/li&gt;&lt;li&gt;This team keeps an on-call rotation.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$125,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$150,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-12T09:00:00-05:00",
+      "id": 4100007,
+      "location": {
+        "name": "Durham, NC"
+      },
+      "title": "Analytics Engineer",
+      "updated_at": "2026-11-12T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100008",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our fictional analytics group supports invented clinics.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Python and SQL.&lt;/li&gt;&lt;li&gt;Applicants must be authorized to work in the US without sponsorship.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$105,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$128,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-13T09:00:00-05:00",
+      "id": 4100008,
+      "location": {
+        "name": "Durham, NC"
+      },
+      "title": "Data Analyst",
+      "updated_at": "2026-11-13T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100009",
+      "company_name": "Northwind Example",
+      "content": "",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-08T09:00:00-05:00",
+      "id": 4100009,
+      "location": {
+        "name": "Chicago, IL"
+      },
+      "title": "Operations Manager",
+      "updated_at": "2026-11-08T09:00:00-05:00"
+    },
+    {
+      "absolute_url": "https://job-boards.example.com/northwind-example/jobs/4100010",
+      "company_name": "Northwind Example",
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our fictional analytics group supports invented clinics.&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;SQL, Python and dbt for invented pipelines.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;United States Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$122,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$148,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "departments": [
+        {
+          "child_ids": [],
+          "id": 1,
+          "name": "Operations",
+          "parent_id": null
+        }
+      ],
+      "first_published": "2026-11-13T09:00:00-05:00",
+      "id": 4100010,
+      "location": {
+        "name": "Cary, NC"
+      },
+      "title": "Analytics Engineer",
+      "updated_at": "2026-11-13T09:00:00-05:00"
+    }
+  ],
+  "meta": {
+    "total": 10
+  }
+}

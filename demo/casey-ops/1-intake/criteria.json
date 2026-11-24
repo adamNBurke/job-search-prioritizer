@@ -1,0 +1,286 @@
+{
+  "banding": {
+    "provisional_below_coverage": 60
+  },
+  "bonuses": [],
+  "created_from": "intake",
+  "criteria": [
+    {
+      "evaluator": "keyword_coverage",
+      "id": "skills",
+      "label": "Your skills in the description",
+      "params": {
+        "cap_no_skill": true,
+        "must_have": [
+          {
+            "aliases": [
+              "budget management"
+            ],
+            "priority": true,
+            "term": "budgeting",
+            "weight": 2
+          },
+          {
+            "aliases": [
+              "spreadsheets"
+            ],
+            "term": "Excel",
+            "weight": 1
+          },
+          {
+            "aliases": [
+              "continuous improvement"
+            ],
+            "term": "process improvement",
+            "weight": 1
+          },
+          {
+            "aliases": [],
+            "term": "Six Sigma",
+            "weight": 1
+          },
+          {
+            "aliases": [
+              "supplier management"
+            ],
+            "priority": true,
+            "term": "vendor management",
+            "weight": 2
+          }
+        ],
+        "nice": [],
+        "rarity": true,
+        "share": true
+      },
+      "reasons": {
+        "0": "None of your {total} key skills appear in the description.",
+        "default": "{hit} of your {total} key skills appear in the description ({hits_list})."
+      },
+      "weight": 30
+    },
+    {
+      "evaluator": "level_match",
+      "id": "level",
+      "label": "Seniority level",
+      "params": {
+        "cap_off_level": false,
+        "target": "manager",
+        "years": 9
+      },
+      "weight": 3
+    },
+    {
+      "evaluator": "banded_number",
+      "field": "comp_max",
+      "id": "pay",
+      "label": "Pay",
+      "params": {
+        "bands": [
+          [
+            123500,
+            3
+          ],
+          [
+            109250,
+            2
+          ],
+          [
+            95000,
+            1
+          ]
+        ],
+        "currency": "USD"
+      },
+      "weight": 30
+    },
+    {
+      "evaluator": "location_match",
+      "id": "location",
+      "label": "Work arrangement and place",
+      "params": {
+        "modes": [
+          "hybrid",
+          "remote"
+        ],
+        "places": [
+          "US"
+        ]
+      },
+      "weight": 30
+    },
+    {
+      "evaluator": "age_bands",
+      "id": "freshness",
+      "label": "Posting age",
+      "params": {
+        "bands": [
+          [
+            14,
+            3
+          ],
+          [
+            45,
+            2
+          ],
+          [
+            90,
+            1
+          ]
+        ],
+        "cap_after_days": 60,
+        "else": 0,
+        "reject_after_days": 180
+      },
+      "weight": 7
+    }
+  ],
+  "criteria_version": "1.2",
+  "hard_filters": [
+    {
+      "currency": "USD",
+      "field": "comp_max",
+      "id": "pay_floor",
+      "label": "Pay",
+      "reject_reason": "Top of the stated range is {comp_max}, below your {value} floor.",
+      "type": "min_number",
+      "unknown": "gap",
+      "value": 95000
+    },
+    {
+      "allow": [
+        "hybrid",
+        "remote"
+      ],
+      "field": "work_mode",
+      "id": "work_mode",
+      "label": "Work arrangement",
+      "reject_reason": "{company} offers {work_mode_text} work; you accept hybrid or remote only.",
+      "type": "enum_allow",
+      "unknown": "gap"
+    },
+    {
+      "allow": [
+        "US"
+      ],
+      "id": "region",
+      "label": "Region",
+      "reject_reason": "{company} is hiring outside the regions you can work in (US).",
+      "type": "region_allow",
+      "unknown": "gap"
+    }
+  ],
+  "one_per_company": {
+    "enabled": true,
+    "keep": "best"
+  },
+  "reserved": {
+    "overrides": null,
+    "tracks": null
+  },
+  "schema_version": 1,
+  "tiers": [
+    {
+      "id": "A",
+      "meaning": "Worth full effort: research, tailored resume, letter",
+      "min_score": 100
+    },
+    {
+      "id": "B",
+      "meaning": "Worth a tailored resume and the form",
+      "min_score": 95
+    },
+    {
+      "id": "C",
+      "meaning": "Keep in view; low priority",
+      "min_score": 0
+    }
+  ],
+  "title": {
+    "exclude": [
+      {
+        "origin": "default",
+        "terms": [
+          "intern",
+          "internship"
+        ]
+      }
+    ],
+    "families": [
+      {
+        "approved_at": "2026-11-17T12:00:00Z",
+        "evidence": {
+          "asking_for_your_skills": 6,
+          "postings_sampled": 23,
+          "sample_date": "2026-11-17",
+          "share": 0.261,
+          "top_shared_skills": [
+            "budgeting",
+            "process improvement",
+            "vendor management"
+          ]
+        },
+        "id": "tf-operations-leadership",
+        "label": "Operations leadership",
+        "origin": "stated",
+        "regex": [],
+        "rung": 3,
+        "terms": [
+          "business operations manager",
+          "operations manager"
+        ]
+      },
+      {
+        "approved_at": "2026-11-17T12:00:00Z",
+        "evidence": {
+          "asking_for_your_skills": 2,
+          "postings_sampled": 23,
+          "sample_date": "2026-11-17",
+          "share": 0.087,
+          "top_shared_skills": [
+            "budgeting",
+            "process improvement",
+            "vendor management"
+          ]
+        },
+        "id": "tf-program-delivery",
+        "label": "Program delivery",
+        "origin": "stated",
+        "regex": [],
+        "rung": 3,
+        "terms": [
+          "program manager"
+        ]
+      },
+      {
+        "id": "tf-s-business-operations-manager",
+        "label": "Business Operations Manager",
+        "origin": "stated",
+        "regex": [],
+        "rung": 3,
+        "terms": [
+          "business operations manager"
+        ]
+      },
+      {
+        "id": "tf-s-operations-manager",
+        "label": "Operations Manager",
+        "origin": "stated",
+        "regex": [],
+        "rung": 3,
+        "terms": [
+          "operations manager"
+        ]
+      },
+      {
+        "id": "tf-s-program-manager",
+        "label": "Program Manager",
+        "origin": "stated",
+        "regex": [],
+        "rung": 3,
+        "terms": [
+          "program manager"
+        ]
+      }
+    ]
+  }
+}

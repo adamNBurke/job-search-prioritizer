@@ -1,0 +1,179 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "applyUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000001/application",
+      "compensation": {
+        "compensationTiers": [
+          {
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "EUR",
+                "interval": "1 YEAR",
+                "maxValue": 82000,
+                "minValue": 68000,
+                "summary": "68000-82000"
+              }
+            ],
+            "id": "t1",
+            "title": "Tier"
+          }
+        ]
+      },
+      "department": "Design",
+      "descriptionPlain": "Invented media studio. Figma, motion design and user research.",
+      "id": "b2000001-0000-4000-8000-000000000001",
+      "isListed": true,
+      "jobUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000001",
+      "location": "Amsterdam, Netherlands",
+      "publishedAt": "2026-11-11T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "team": "Design",
+      "title": "UX Designer",
+      "workplaceType": "Hybrid"
+    },
+    {
+      "applyUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000002/application",
+      "compensation": {
+        "compensationTiers": [
+          {
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "EUR",
+                "interval": "1 YEAR",
+                "maxValue": 85000,
+                "minValue": 70000,
+                "summary": "70000-85000"
+              }
+            ],
+            "id": "t1",
+            "title": "Tier"
+          }
+        ]
+      },
+      "department": "Design",
+      "descriptionPlain": "Invented remote design work in Figma.",
+      "id": "b2000001-0000-4000-8000-000000000002",
+      "isListed": true,
+      "jobUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000002",
+      "location": "Berlin, Germany",
+      "publishedAt": "2026-11-10T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "team": "Design",
+      "title": "Product Designer",
+      "workplaceType": "Remote"
+    },
+    {
+      "applyUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000003/application",
+      "compensation": {
+        "compensationTiers": [
+          {
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "USD",
+                "interval": "1 YEAR",
+                "maxValue": 125000,
+                "minValue": 98000,
+                "summary": "98000-125000"
+              }
+            ],
+            "id": "t1",
+            "title": "Tier"
+          }
+        ]
+      },
+      "department": "Operations",
+      "descriptionPlain": "Invented program office. Process improvement, vendor management and budgeting.",
+      "id": "b2000001-0000-4000-8000-000000000003",
+      "isListed": true,
+      "jobUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000003",
+      "location": "Remote - US",
+      "publishedAt": "2026-11-12T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "team": "Operations",
+      "title": "Program Manager",
+      "workplaceType": "Remote"
+    },
+    {
+      "applyUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000004/application",
+      "compensation": {
+        "compensationTiers": [
+          {
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "USD",
+                "interval": "1 YEAR",
+                "maxValue": 120000,
+                "minValue": 100000,
+                "summary": "100000-120000"
+              }
+            ],
+            "id": "t1",
+            "title": "Tier"
+          }
+        ]
+      },
+      "department": "Operations",
+      "descriptionPlain": "Invented on-site operations. Process improvement and Excel.",
+      "id": "b2000001-0000-4000-8000-000000000004",
+      "isListed": true,
+      "jobUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000004",
+      "location": "Chicago, IL",
+      "publishedAt": "2026-11-11T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "team": "Operations",
+      "title": "Business Operations Manager",
+      "workplaceType": "OnSite"
+    },
+    {
+      "applyUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000005/application",
+      "compensation": {
+        "compensationTiers": [
+          {
+            "components": [
+              {
+                "compensationType": "Salary",
+                "currencyCode": "USD",
+                "interval": "1 YEAR",
+                "maxValue": 71000,
+                "minValue": 62000,
+                "summary": "62000-71000"
+              }
+            ],
+            "id": "t1",
+            "title": "Tier"
+          }
+        ]
+      },
+      "department": "Operations",
+      "descriptionPlain": "Invented operations role. Budgeting and vendor management.",
+      "id": "b2000001-0000-4000-8000-000000000005",
+      "isListed": true,
+      "jobUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000005",
+      "location": "Remote - US",
+      "publishedAt": "2026-11-11T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "team": "Operations",
+      "title": "Operations Manager",
+      "workplaceType": "Remote"
+    },
+    {
+      "applyUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000006/application",
+      "department": "Operations",
+      "descriptionPlain": "Invented recruiting role.",
+      "id": "b2000001-0000-4000-8000-000000000006",
+      "isListed": true,
+      "jobUrl": "https://jobs.example.com/meridian-example/b2000001-0000-4000-8000-000000000006",
+      "location": "Remote - US",
+      "publishedAt": "2026-11-10T09:00:00.000+00:00",
+      "secondaryLocations": [],
+      "team": "Operations",
+      "title": "Recruiter",
+      "workplaceType": "Remote"
+    }
+  ]
+}

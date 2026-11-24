@@ -1,0 +1,56 @@
+{
+  "allowed_email_domains": [
+    "example.com",
+    "example.org",
+    "example.net",
+    "users.noreply.github.com"
+  ],
+  "phone_fiction_exchange": "555",
+  "phone_fiction_line_prefix": "01",
+  "linkedin_domain_allowed_paths": [
+    "src/jobsearch/netguard.py",
+    "tests/test_netguard.py",
+    "tests/test_fetch.py",
+    "docs/",
+    "README.md"
+  ],
+  "home_path_placeholders": [
+    "you",
+    "user",
+    "username",
+    "runner",
+    "runneradmin",
+    "example",
+    "name",
+    "<you>",
+    "<user>",
+    "<username>",
+    "<runner>",
+    "<runneradmin>",
+    "<example>",
+    "<name>"
+  ],
+  "forbidden_paths": [
+    ".planning/",
+    ".claude/",
+    ".env",
+    ".env.*",
+    "*.pem",
+    "*.key",
+    "id_rsa*",
+    "id_ed25519*",
+    "*.local.md",
+    "/CLAUDE.md",
+    ".DS_Store",
+    "*.p12",
+    "*.pfx",
+    ".mcp.json",
+    "*.sqlite"
+  ],
+  "binary_allowlist": [
+    "demo/casey-ops/screenshots/interview-picker.png",
+    "demo/casey-ops/screenshots/letter.png",
+    "demo/casey-ops/screenshots/ranked-list.png"
+  ],
+  "min_denylist_terms": 5
+}

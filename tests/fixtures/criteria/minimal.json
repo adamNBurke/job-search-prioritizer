@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "criteria_version": "1.0",
+  "created_from": "intake",
+  "hard_filters": [
+    {
+      "id": "work_mode",
+      "type": "enum_allow",
+      "field": "work_mode",
+      "allow": ["remote"],
+      "unknown": "gap",
+      "label": "Work arrangement",
+      "reject_reason": "{company} wants you on site ({work_mode_text}); you asked for remote only."
+    },
+    {
+      "id": "pay_floor",
+      "type": "min_number",
+      "field": "comp_max",
+      "value": 90000,
+      "currency": "USD",
+      "unknown": "gap",
+      "label": "Pay",
+      "reject_reason": "Top of the stated range is {comp_max}, below your {value} floor."
+    },
+    { "id": "no_go_companies", "type": "deny_list", "names": [] }
+  ],
+  "title": {
+    "families": [
+      {
+        "id": "tf-ops",
+        "label": "Operations manager",
+        "rung": 3,
+        "terms": ["operations manager", "ops manager", "head of operations"],
+        "regex": [],
+        "origin": "stated",
+        "approved_at": "2026-11-12T10:00:00Z"
+      },
+      {
+        "id": "tf-program",
+        "label": "Program manager",
+        "rung": 2,
+        "terms": ["program manager", "project manager"],
+        "regex": [],
+        "origin": "default"
+      }
+    ],
+    "exclude": [{ "terms": ["intern", "recruiter"], "origin": "default" }]
+  },
+  "criteria": [
+    {
+      "id": "title_fit",
+      "label": "Title and scope match",
+      "weight": 40,
+      "evaluator": "title_ladder",
+      "reasons": {
+        "3": "Title matches your \"{family}\" family.",
+        "0": "Title is outside every family you approved."
+      }
+    },
+    {
+      "id": "skills",
+      "label": "Your skills in the description",
+      "weight": 30,
+      "evaluator": "keyword_coverage",
+      "params": {
+        "must_have": [{ "term": "spreadsheets", "aliases": ["excel"], "weight": 2 }],
+        "nice": [],
+        "bands": [[0.6, 3], [0.4, 2], [0.2, 1], [0, 0]]
+      },
+      "reasons": {
+        "default": "{hit} of your {total} key skills appear in the description ({hits_list})."
+      }
+    },
+    {
+      "id": "freshness",
+      "label": "Posting age",
+      "weight": 20,
+      "evaluator": "age_bands",
+      "params": { "bands": [[14, 3], [45, 2], [90, 1]], "else": 0 }
+    },
+    {
+      "id": "pay",
+      "label": "Pay",
+      "weight": 10,
+      "evaluator": "banded_number",
+      "field": "comp_max",
+      "params": { "bands": [[150000, 3], [120000, 2], [90000, 1]] }
+    }
+  ],
+  "bonuses": [
+    {
+      "id": "domain_fit",
+      "evaluator": "term_scale",
+      "field": "company_industry",
+      "max_points": 10,
+      "params": { "terms": { "logistics": 3 } }
+    }
+  ],
+  "tiers": [
+    { "id": "A", "min_score": 70, "meaning": "Worth full effort: research, tailored resume, letter" },
+    { "id": "B", "min_score": 50, "meaning": "Worth a tailored resume and the form" },
+    { "id": "C", "min_score": 0, "meaning": "Keep in view; low priority" }
+  ],
+  "banding": { "provisional_below_coverage": 50 },
+  "one_per_company": { "enabled": true, "keep": "best" },
+  "reserved": { "tracks": null, "overrides": null }
+}

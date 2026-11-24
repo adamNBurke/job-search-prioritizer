@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Share a win
+    url: https://github.com/adamNBurke/job-search-prioritizer/discussions/categories/wins
+    about: Tell us about a role you found or an application you sent. Leave out anything private.
+  - name: Ask a question
+    url: https://github.com/adamNBurke/job-search-prioritizer/discussions
+    about: Questions and ideas belong in Discussions, not in an issue.

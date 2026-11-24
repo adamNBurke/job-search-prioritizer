@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {"name": "Acme Robotics", "ats": "greenhouse", "slug": "acme-robotics", "industry": "manufacturing-hardware", "size": "51-200", "confirmed": true}
+  ]
+}

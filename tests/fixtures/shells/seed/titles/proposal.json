@@ -1,0 +1,6 @@
+{
+  "families": [
+    {"id": "tf-operations", "label": "Operations analyst", "titles": ["operations analyst"], "terms": ["operations analyst"]},
+    {"id": "tf-technical-writing", "label": "Technical writer", "titles": ["technical writer"], "terms": ["technical writer"]}
+  ]
+}

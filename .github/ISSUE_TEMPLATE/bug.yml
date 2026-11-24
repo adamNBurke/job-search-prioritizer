@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in job-search-prioritizer did not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This page is public. Never paste your resume, your profile/answers.json, a ranked list with your notes, your email address, your phone number, your home folder path, or any file from your data folder. Describe what happened in your own words instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: what-you-expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which skill you ran and what you answered, in order.
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: shell
+    attributes:
+      label: Shell
+      options:
+        - bash
+        - zsh
+        - PowerShell 7
+        - Windows PowerShell 5.1
+        - Git Bash
+        - not sure
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Shown by the status skill, or in .claude-plugin/plugin.json.
+  - type: textarea
+    id: output
+    attributes:
+      label: The JSON line the tool printed
+      description: Remove names, emails and folder paths first.
+      render: text

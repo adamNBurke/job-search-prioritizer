@@ -1,0 +1,102 @@
+[
+  {
+    "additional": "<div>Invented closing text for the fixture.</div>",
+    "additionalPlain": "Invented closing text for the fixture.",
+    "applyUrl": "https://jobs.eu.example.com/acme-robotics/9a21656e-3b94-5d56-8c90-c4ff680dc2c1/apply",
+    "categories": {
+      "allLocations": [
+        "Remote"
+      ],
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "Remote",
+      "team": "Robotics"
+    },
+    "country": null,
+    "createdAt": 1553186000002,
+    "description": "<div>Acme Robotics builds invented warehouse robots for this test fixture.</div><div>This Warehouse Planner role is synthetic text.</div><div><br></div><div>Invented responsibilities follow.</div>",
+    "descriptionBody": "<div>This Warehouse Planner role is synthetic text.</div><div><br></div><div>Invented responsibilities follow.</div>",
+    "descriptionBodyPlain": "This Warehouse Planner role is synthetic text. ",
+    "descriptionPlain": "Acme Robotics builds invented warehouse robots for this test fixture. This Warehouse Planner role is synthetic text.",
+    "hostedUrl": "https://jobs.eu.example.com/acme-robotics/9a21656e-3b94-5d56-8c90-c4ff680dc2c1",
+    "id": "9a21656e-3b94-5d56-8c90-c4ff680dc2c1",
+    "lists": [
+      {
+        "text": "What you will do:",
+        "content": "<li>Invented task one</li><li>Invented task two</li>"
+      },
+      {
+        "text": "Skill Set:",
+        "content": "<li>Invented skill</li>"
+      }
+    ],
+    "opening": "<div>Acme Robotics builds invented warehouse robots for this test fixture.</div>",
+    "openingPlain": "Acme Robotics builds invented warehouse robots for this test fixture.",
+    "text": "Warehouse Planner",
+    "workplaceType": "unspecified"
+  },
+  {
+    "additional": "<div>Invented closing text for the fixture.</div>",
+    "additionalPlain": "Invented closing text for the fixture.",
+    "applyUrl": "https://jobs.eu.example.com/acme-robotics/a52ef058-b319-5798-9107-eb5f8381196a/apply",
+    "categories": {
+      "allLocations": [],
+      "commitment": "Full-time",
+      "department": "Engineering"
+    },
+    "country": "NL",
+    "createdAt": 1590000000000,
+    "description": "<div>Acme Robotics builds invented warehouse robots for this test fixture.</div><div>This Data Analyst role is synthetic text. A literal 1 &lt; 2 appears in running text.</div><div><br></div><div>Invented responsibilities follow.</div>",
+    "descriptionBody": "<div>This Data Analyst role is synthetic text. A literal 1 &lt; 2 appears in running text.</div><div><br></div><div>Invented responsibilities follow.</div>",
+    "descriptionBodyPlain": "This Data Analyst role is synthetic text. A literal 1 < 2 appears in running text.",
+    "descriptionPlain": "Acme Robotics builds invented warehouse robots for this test fixture. This Data Analyst role is synthetic text.",
+    "hostedUrl": "https://jobs.eu.example.com/acme-robotics/a52ef058-b319-5798-9107-eb5f8381196a",
+    "id": "a52ef058-b319-5798-9107-eb5f8381196a",
+    "lists": [
+      {
+        "text": "What you will do:",
+        "content": "<li>Invented task one</li><li>Invented task two</li>"
+      }
+    ],
+    "opening": "<div>Acme Robotics builds invented warehouse robots for this test fixture.</div>",
+    "openingPlain": "Acme Robotics builds invented warehouse robots for this test fixture.",
+    "text": "Data Analyst",
+    "workplaceType": "unspecified"
+  },
+  {
+    "additional": "<div>Invented closing text for the fixture.</div>",
+    "additionalPlain": "Invented closing text for the fixture.",
+    "applyUrl": "https://jobs.eu.example.com/acme-robotics/05bfaf7b-2931-555a-852a-d56448059dc0/apply",
+    "categories": {
+      "allLocations": [
+        "New York, NY"
+      ],
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "New York, NY",
+      "team": "Robotics"
+    },
+    "country": "US",
+    "createdAt": 1594000000000,
+    "description": "<div>Acme Robotics builds invented warehouse robots for this test fixture.</div><div>This Sales Representative role is synthetic text.</div><div><br></div><div>Invented responsibilities follow.</div>",
+    "descriptionBody": "<div>This Sales Representative role is synthetic text.</div><div><br></div><div>Invented responsibilities follow.</div>",
+    "descriptionBodyPlain": "This Sales Representative role is synthetic text. ",
+    "descriptionPlain": "Acme Robotics builds invented warehouse robots for this test fixture. This Sales Representative role is synthetic text.",
+    "hostedUrl": "https://jobs.eu.example.com/acme-robotics/05bfaf7b-2931-555a-852a-d56448059dc0",
+    "id": "05bfaf7b-2931-555a-852a-d56448059dc0",
+    "lists": [
+      {
+        "text": "What you will do:",
+        "content": "<li>Invented task one</li><li>Invented task two</li>"
+      },
+      {
+        "text": "Skill Set:",
+        "content": "<li>Invented skill</li>"
+      }
+    ],
+    "opening": "<div>Acme Robotics builds invented warehouse robots for this test fixture.</div>",
+    "openingPlain": "Acme Robotics builds invented warehouse robots for this test fixture.",
+    "text": "Sales Representative",
+    "workplaceType": "unspecified"
+  }
+]

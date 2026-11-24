@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "variants": {
+    "budgeting": [
+      "budget",
+      "budgets"
+    ],
+    "budget management": [
+      "budget",
+      "budgets"
+    ],
+    "vendor management": [
+      "vendors",
+      "suppliers",
+      "vendor relationships",
+      "supplier relationships",
+      "vendor contracts",
+      "vendor selection"
+    ],
+    "supplier management": [
+      "vendors",
+      "suppliers",
+      "vendor relationships",
+      "supplier relationships",
+      "vendor contracts",
+      "vendor selection"
+    ]
+  },
+  "not_skill": {
+    "excel": {
+      "exact_case": [
+        "excel at",
+        "excel in",
+        "to excel",
+        "we excel",
+        "you excel",
+        "will excel",
+        "who excel",
+        "they excel",
+        "you'll excel",
+        "you\u2019ll excel",
+        "We excel",
+        "You excel",
+        "They excel",
+        "Who excel",
+        "You'll excel",
+        "You\u2019ll excel"
+      ],
+      "sentence_start": [
+        "Excel at",
+        "Excel in"
+      ]
+    },
+    "continuous improvement": {
+      "any_case": [
+        "culture of continuous improvement",
+        "focus on continuous improvement",
+        "commitment to continuous improvement",
+        "mindset of continuous improvement",
+        "spirit of continuous improvement",
+        "passion for continuous improvement",
+        "believe in continuous improvement",
+        "value continuous improvement",
+        "values continuous improvement"
+      ]
+    },
+    "r": {
+      "any_case": [
+        "R&D",
+        "R & D"
+      ]
+    },
+    "c": {
+      "any_case": [
+        "C-suite",
+        "C-level",
+        "C suite"
+      ]
+    },
+    "go": {
+      "any_case": [
+        "go-to-market",
+        "go to market",
+        "go-live"
+      ]
+    }
+  }
+}

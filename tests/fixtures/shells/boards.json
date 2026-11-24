@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "ats": "greenhouse",
+      "company": "Acme Robotics",
+      "identity": "company_name",
+      "industry": "manufacturing-hardware",
+      "last_verified": "2026-11-17",
+      "postings_at_verify": 4,
+      "size": "51-200",
+      "slug": "acme-robotics",
+      "stage": "growth"
+    }
+  ],
+  "generated_on": "2026-11-17",
+  "schema_version": 1
+}
